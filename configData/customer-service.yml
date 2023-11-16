@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/serviceCustomer
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true

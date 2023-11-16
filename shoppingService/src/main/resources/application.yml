@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/serviceShopping
+    password: root
+  cloud:
+    config:
+      enabled: 'false'
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: create-drop
+server:
+  port: '8082'
